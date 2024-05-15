@@ -52,11 +52,11 @@ Setup Guide
 
 1.  Clone the repository:
     
-        git clone https://github.com/yourusername/repositoryname.git
+        git clone https://github.com/erekhshe/gscFetcher.git
     
 2.  Navigate to the project directory:
     
-        cd repositoryname
+        cd gscFetcher
     
 3.  Use Maven to compile the project:
     
