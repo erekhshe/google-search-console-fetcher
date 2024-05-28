@@ -88,7 +88,7 @@ Setup Guide
 
 14. Click on the “DOWNLOAD JSON”.
 
-    ![Specify the name](src/images/generate-json-file/14.png)
+    ![DOWNLOAD JSON](src/images/generate-json-file/14.png)
 
 15. After creating the JSON file in the Google Search Console API, the generated file needs to be uploaded to an environment that can provide a direct link.
 
@@ -106,9 +106,53 @@ Setup Guide
     
 3.  Use Maven to compile the project:
     
-        mvn clean package
+        mvn clean install
     
 4.  The compiled Jar file will be located in the `target` directory.
+
+
+**To compile in the Windows environment, you can use free IDEs such as Eclipse **.
+
+   Follow the steps below
+
+1.	Click on File > New > Maven Project.
+
+    ![Specify the name](src/images/compile-the-project/1.png)
+
+2. Check the "Create a simple project" box and click Next.
+
+    ![Specify the name](src/images/compile-the-project/2.png)
+   
+
+3. Check the "Create a simple project" box and click Next.
+
+    ![Specify the name](src/images/compile-the-project/3.png)
+
+4. Download the project from GitHub and replace the internal files in the eclipse-workspace.
+
+    ![Specify the name](src/images/compile-the-project/4.png)
+
+
+5. Refresh the project in the software once to make the changes appear (right-click and select Refresh).
+
+    ![Specify the name](src/images/compile-the-project/5.png)
+
+6. You will need to make some changes to the code based on the website and database specifications.
+
+    ![Specify the name](src/images/compile-the-project/6.png)
+
+7. After making the changes, right-click on the project name and select Run As > Maven install.
+
+    ![Specify the name](src/images/compile-the-project/7.png)
+
+8. The console will display a report indicating the successful completion of the operation.
+
+    ![Specify the name](src/images/compile-the-project/8.png)
+
+9. Navigate to the project directory and you will find the generated zip file (.jar) in the target folder.
+
+    ![Specify the name](src/images/compile-the-project/9.png)
+
 
 ### Create a Lambda Project on Amazon
 
