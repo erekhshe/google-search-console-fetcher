@@ -107,10 +107,12 @@ public class GSCFetcher implements RequestHandler<Object, Object> {
 			conn = DriverManager.getConnection("jdbc:mysql://"+connectionString+"&characterEncoding=UTF-8");
 			if (conn != null) {
 				System.out.println("Connected to the database successfully. Deleting all existing records for " + date);
-				 //      Replace your table name			
+				
+				//      Replace your table name			
 				//   \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/
-				String tableName = "your table name";
+				String tableName = "your_table_name";
 				//   /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\
+				
 				conn.prepareStatement("DELETE FROM "+ tableName +" WHERE date='" + date + "'").execute();
 
 				String insertQuery = "INSERT INTO "+ tableName +" (date, query, page, device, country, clicks, impressions, ctr, position) VALUES ";
@@ -143,7 +145,7 @@ public class GSCFetcher implements RequestHandler<Object, Object> {
 							+")";
 					if (rowCounter == totalRows || rowCounter % 5000 == 0) {
 						conn.prepareStatement(insertQuery).execute();
-						insertQuery = "INSERT INTO google_search_console (date, query, page, device, country, clicks, impressions, ctr, position) VALUES ";
+						insertQuery = "INSERT INTO " + tableName + " (date, query, page, device, country, clicks, impressions, ctr, position) VALUES ";
 					} else {
 						insertQuery += ",";
 					}
