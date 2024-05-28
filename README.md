@@ -36,68 +36,61 @@ Setup Guide
 ### Generate Google Search Console API Credentials
 1.  Go to the Google Developers Console. And click on “CREATE PROJECT“ in the top menu.
 
-    ![Create a new project](src/images/compile-the-project/1.png)
+    ![Create a new project](src/images/generate-json-file/1.png)
 
 2. Specify the name of the desired project and the address of your project file.
 
-    ![Specify the name](src/images/compile-the-project/2.png)
+    ![Specify the name](src/images/generate-json-file/2.png)
 
 3. You can change the project ID. (Note that you can only change the ID at this stage.)
 
-    ![Specify the name](src/images/compile-the-project/3.png)
+    ![change the project ID](src/images/generate-json-file/3.png)
 
 4. After changing the ID, click on the “CREATE” button to create your project
 
-    ![Specify the name](src/images/compile-the-project/4.png)
+    ![click on the “CREATE”](src/images/generate-json-file/4.png)
 
 5. After registering your project, a successful registration notification will be displayed for you. Click on “Select Project“ to enter your project.
 
-    ![Specify the name](src/images/compile-the-project/5.png)
-
-5. To set up the API, click on “Go to API's overview”
-
-    ![Specify the name](src/images/compile-the-project/6.png)
+    ![Select Project](src/images/generate-json-file/5.png)
 
 6. To set up the API, click on “Go to API's overview”
 
-    ![Specify the name](src/images/compile-the-project/6.png)
-
+    ![Go to API's overview](src/images/generate-json-file/6.png)
 
 7. Click on one of the following items, “Library”.
 
-    ![Specify the name](src/images/compile-the-project/7.png)
+    ![Library](src/images/generate-json-file/7.png)
 
 8.	Search for the phrase "Google Search Console API" in the search box
 
-    ![Specify the name](src/images/compile-the-project/8.png)
+    ![Google Search Console API](src/images/generate-json-file/8.png)
 
-9.	Click on the search result.
+9. Click on the search result.
 
-    ![Specify the name](src/images/compile-the-project/9.png)
+    ![search result](src/images/generate-json-file/9.png)
 
 10. Click on the “Enable“ button to activate the API.
 
-    ![Specify the name](src/images/compile-the-project/10.png)
+    ![Enable](src/images/generate-json-file/10.png)
 
 11. Go to the Credentials page. Click on the “Create credentials“ option in the top menu and select “OAuth client ID”.
 
-    ![Specify the name](src/images/compile-the-project/11.png)
+    ![Specify the name](src/images/generate-json-file/11.png)
 
 12. Select the “Web application” option
 
-    ![Specify the name](src/images/compile-the-project/12.png)
+    ![Specify the name](src/images/generate-json-file/12.png)
 
 13. After selecting Web application, some fields will be displayed for you. Fill in the fields according to your needs, then click on the “CREATE“ button
 
-    ![Specify the name](src/images/compile-the-project/13.png)
+    ![Specify the name](src/images/generate-json-file/13.png)
 
 14. Click on the “DOWNLOAD JSON”.
 
-    ![Specify the name](src/images/compile-the-project/14.png)
+    ![Specify the name](src/images/generate-json-file/14.png)
 
 15. After creating the JSON file in the Google Search Console API, the generated file needs to be uploaded to an environment that can provide a direct link.
-
-    ![Specify the name](src/images/compile-the-project/15.png)
 
 
 
