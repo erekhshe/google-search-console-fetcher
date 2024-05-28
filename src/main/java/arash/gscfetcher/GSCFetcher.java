@@ -107,9 +107,13 @@ public class GSCFetcher implements RequestHandler<Object, Object> {
 			conn = DriverManager.getConnection("jdbc:mysql://"+connectionString+"&characterEncoding=UTF-8");
 			if (conn != null) {
 				System.out.println("Connected to the database successfully. Deleting all existing records for " + date);
-				conn.prepareStatement("DELETE FROM google_search_console WHERE date='" + date + "'").execute();
+				 //      Replace your table name			
+				//   \/ \/ \/ \/ \/ \/ \/ \/ \/ \/ \/
+				String tableName = "your table name";
+				//   /\ /\ /\ /\ /\ /\ /\ /\ /\ /\ /\
+				conn.prepareStatement("DELETE FROM "+ tableName +" WHERE date='" + date + "'").execute();
 
-				String insertQuery = "INSERT INTO google_search_console (date, query, page, device, country, clicks, impressions, ctr, position) VALUES ";
+				String insertQuery = "INSERT INTO "+ tableName +" (date, query, page, device, country, clicks, impressions, ctr, position) VALUES ";
 				int rowCounter = 0;
 				int totalRows = response.getRows().size();
 
