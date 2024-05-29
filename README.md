@@ -111,9 +111,8 @@ Setup Guide
 4.  The compiled Jar file will be located in the `target` directory.
 
 
-**To compile in the Windows environment, you can use free IDEs such as Eclipse **.
-
-   Follow the steps below
+**To compile in the Windows environment, you can use free IDEs such as Eclipse**.
+--Follow the steps below
 
 1.	Click on File > New > Maven Project.
 
