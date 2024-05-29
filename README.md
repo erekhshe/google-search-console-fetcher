@@ -112,7 +112,8 @@ Setup Guide
 
 
 **To compile in the Windows environment, you can use free IDEs such as Eclipse**.
---Follow the steps below
+
+*Follow the steps below*
 
 1.	Click on File > New > Maven Project.
 
