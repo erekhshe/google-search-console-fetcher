@@ -295,23 +295,3 @@ Troubleshooting
 
 For any further assistance, please refer to the official documentation or open an issue on the GitHub repository.
 
-
-
-.thumbnail-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.thumbnail {
-  width: 150px; /* عرض دلخواه */
-  height: 100px; /* ارتفاع دلخواه */
-  margin: 10px;
-  object-fit: cover; /* برای پوشش دادن کامل فضا */
-  cursor: pointer; /* تغییر شکل ماوس به اشاره گر */
-  transition: transform 0.3s ease; /* افکت بزرگ شدن */
-}
-
-.thumbnail:hover {
-  transform: scale(1.1); /* بزرگ شدن عکس هنگام hover */
-}
