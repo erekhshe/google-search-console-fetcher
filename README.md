@@ -221,7 +221,7 @@ Setup Guide
 
    **___Log output___** : 
 
-   <img src="src/images/guid-for-project-in-lambda/12.png" alt="Alt Text" style="max-width:50% !important;">
+   <img src="src/images/guid-for-project-in-lambda/12.png" alt="Alt Text" class="thumbnail" style="max-width:50% !important;">
 
 13. If there is an issue with the project you've defined, you will encounter an error. In this case, the error will be displayed to you. If you encounter a timeout error, you should perform the next two steps that exist in this guide to set the timeout.
 
@@ -297,9 +297,21 @@ For any further assistance, please refer to the official documentation or open a
 
 
 
-.img {
-  border: 8px solid red;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  padding: 5px;
+.thumbnail-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.thumbnail {
+  width: 150px; /* عرض دلخواه */
+  height: 100px; /* ارتفاع دلخواه */
+  margin: 10px;
+  object-fit: cover; /* برای پوشش دادن کامل فضا */
+  cursor: pointer; /* تغییر شکل ماوس به اشاره گر */
+  transition: transform 0.3s ease; /* افکت بزرگ شدن */
+}
+
+.thumbnail:hover {
+  transform: scale(1.1); /* بزرگ شدن عکس هنگام hover */
 }
