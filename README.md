@@ -140,7 +140,7 @@ Setup Guide
 6. You will need to make some changes to the code based on the website and database specifications.
 
 
-There are three crucial variables in the code that users need to replace with their own values:
+Four are three crucial variables in the code that users need to replace with their own values:
 
 1.  **Website URL:** Replace `"https://www.example.com"` with your own website URL in the `MyGSCFetcherFunction` method.
     
