@@ -221,7 +221,7 @@ Setup Guide
 
    **___Log output___** : 
 
-   ![successful](src/images/guid-for-project-in-lambda/11.png)
+   ![successful](src/images/guid-for-project-in-lambda/11.png){: .thumbnail-image}
 
 13. If there is an issue with the project you've defined, you will encounter an error. In this case, the error will be displayed to you. If you encounter a timeout error, you should perform the next two steps that exist in this guide to set the timeout.
 
@@ -287,6 +287,15 @@ The provided code fetches data for the past five days as a sample. However, you 
 
 Troubleshooting
 ---------------
+
+
+
+.thumbnail-image {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 5px;
+}
 
 *   **Invalid Credentials Error:** Ensure your Google API credentials are correctly set up and the JSON file is correctly placed.
 *   **Timeout Issues:** Increase the timeout setting in the Lambda function configuration.
