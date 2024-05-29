@@ -211,8 +211,6 @@ Setup Guide
  
 10. You can test your project to ensure it's working properly (consider next 3 steps for testing purpose).
 
-    ![Handler field](src/images/guid-for-project-in-lambda/10.png)
-
 11. Go to the Test tab, choose an arbitrary name for the event and save it. So that you can hit the Test b/utton whenever you need to test your project
 
     ![Go to the Test tab](src/images/guid-for-project-in-lambda/10.png)
