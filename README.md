@@ -36,61 +36,61 @@ Setup Guide
 ### Generate Google Search Console API Credentials
 1.  Go to the Google Developers Console. And click on “CREATE PROJECT“ in the top menu.
 
-    ![Create a new project](src/images/generate-json-file/1.png)
+    <img src="src/images/generate-json-file/1.png" alt="Alt Text" class="thumbnail" style="width:500px; !important;">
 
-2. Specify the name of the desired project and the address of your project file.
+3. Specify the name of the desired project and the address of your project file.
 
     ![Specify the name](src/images/generate-json-file/2.png)
 
-3. You can change the project ID. (Note that you can only change the ID at this stage.)
+4. You can change the project ID. (Note that you can only change the ID at this stage.)
 
     ![change the project ID](src/images/generate-json-file/3.png)
 
-4. After changing the ID, click on the “CREATE” button to create your project
+5. After changing the ID, click on the “CREATE” button to create your project
 
     ![click on the “CREATE”](src/images/generate-json-file/4.png)
 
-5. After registering your project, a successful registration notification will be displayed for you. Click on “Select Project“ to enter your project.
+6. After registering your project, a successful registration notification will be displayed for you. Click on “Select Project“ to enter your project.
 
     ![Select Project](src/images/generate-json-file/5.png)
 
-6. To set up the API, click on “Go to API's overview”
+7. To set up the API, click on “Go to API's overview”
 
     ![Go to API's overview](src/images/generate-json-file/6.png)
 
-7. Click on one of the following items, “Library”.
+8. Click on one of the following items, “Library”.
 
     ![Library](src/images/generate-json-file/7.png)
 
-8.	Search for the phrase "Google Search Console API" in the search box
+9.	Search for the phrase "Google Search Console API" in the search box
 
     ![Google Search Console API](src/images/generate-json-file/8.png)
 
-9. Click on the search result.
+10. Click on the search result.
 
     ![search result](src/images/generate-json-file/9.png)
 
-10. Click on the “Enable“ button to activate the API.
+11. Click on the “Enable“ button to activate the API.
 
     ![Enable](src/images/generate-json-file/10.png)
 
-11. Go to the Credentials page. Click on the “Create credentials“ option in the top menu and select “OAuth client ID”.
+12. Go to the Credentials page. Click on the “Create credentials“ option in the top menu and select “OAuth client ID”.
 
     ![Credentials page](src/images/generate-json-file/11.png)
 
-12. Select the “Web application” option
+13. Select the “Web application” option
 
     ![Web application”](src/images/generate-json-file/12.png)
 
-13. After selecting Web application, some fields will be displayed for you. Fill in the fields according to your needs, then click on the “CREATE“ button
+14. After selecting Web application, some fields will be displayed for you. Fill in the fields according to your needs, then click on the “CREATE“ button
 
     ![Fill in the fields according to your needs](src/images/generate-json-file/13.png)
 
-14. Click on the “DOWNLOAD JSON”.
+15. Click on the “DOWNLOAD JSON”.
 
     ![DOWNLOAD JSON](src/images/generate-json-file/14.png)
 
-15. After creating the JSON file in the Google Search Console API, the generated file needs to be uploaded to an environment that can provide a direct link.
+16. After creating the JSON file in the Google Search Console API, the generated file needs to be uploaded to an environment that can provide a direct link.
 **In the next steps, you need to upload this generated JSON file to Lambda**
 
 
@@ -221,7 +221,7 @@ Setup Guide
 
    **___Log output___** : 
 
-   <img src="src/images/guid-for-project-in-lambda/12.png" alt="Alt Text" class="thumbnail" style="max-width:50% !important;">
+![Log output](src/images/guid-for-project-in-lambda/12.png)
 
 13. If there is an issue with the project you've defined, you will encounter an error. In this case, the error will be displayed to you. If you encounter a timeout error, you should perform the next two steps that exist in this guide to set the timeout.
 
