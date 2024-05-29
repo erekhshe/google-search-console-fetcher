@@ -137,10 +137,7 @@ Setup Guide
 
     ![Refresh the project](src/images/compile-the-project/5.png)
 
-6. You will need to make some changes to the code based on the website and database specifications.
-
-
-Four are three crucial variables in the code that users need to replace with their own values:
+6. You must replace the **4** important variables in the code based on the specifications of the website Url, Database , Table Name, and your Credential URL.
 
 1.  **Website URL:** Replace `"https://www.example.com"` with your own website URL in the `MyGSCFetcherFunction` method.
     
@@ -150,13 +147,11 @@ Four are three crucial variables in the code that users need to replace with the
     
         String connectionString = "1.1.1.1:3306/database_name?user=user&password=password";
 
-
-2.  **Table Name:** The name of the table in the database where you want to store the information
+3.  **Table Name:** The name of the table in the database where you want to store the information
     
         String tableName = "your_table_name";
 
-    
-3.  **Credential URL:** Replace `"https://example.s3.amazonaws.com/gsc-credential.json"` with the URL to your uploaded JSON credential file in the `buildWebmasters` method.
+4.  **Credential URL:** Replace `"https://example.s3.amazonaws.com/gsc-credential.json"` with the URL to your uploaded JSON credential file in the `buildWebmasters` method.
     
         String credentialUrl = "https://example.s3.amazonaws.com/gsc-credential.json";
 
