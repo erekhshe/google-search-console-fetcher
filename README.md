@@ -139,8 +139,6 @@ Setup Guide
 
 6. You will need to make some changes to the code based on the website and database specifications.
 
-Crucial Variables to Replace
-----------------------------
 
 There are three crucial variables in the code that users need to replace with their own values:
 
