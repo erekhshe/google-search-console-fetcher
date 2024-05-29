@@ -290,16 +290,17 @@ Troubleshooting
 ---------------
 
 
-
-.thumbnail-image {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  padding: 5px;
-}
-
 *   **Invalid Credentials Error:** Ensure your Google API credentials are correctly set up and the JSON file is correctly placed.
 *   **Timeout Issues:** Increase the timeout setting in the Lambda function configuration.
 *   **Dependency Issues:** Ensure all dependencies are correctly specified in the `pom.xml` file and Maven has downloaded them.
 
 For any further assistance, please refer to the official documentation or open an issue on the GitHub repository.
+
+
+
+.img {
+  border: 8px solid red;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 5px;
+}
