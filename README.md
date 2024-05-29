@@ -173,11 +173,63 @@ Setup Guide
 
 ### Create a Lambda Project on Amazon
 
-1.  Log in to the [AWS Management Console](https://aws.amazon.com/console/).
-2.  Navigate to the Lambda service.
-3.  Click "Create function".
-4.  Choose "Author from scratch".
-5.  Fill in the details and click "Create function".
+1.	Log into your account and then access the console
+
+    ![Log into your account](src/images/guid-for-project-in-lambda/1.png)
+
+2. Find the Lambda Service and enter to its environment
+
+    ![Lambda Service](src/images/guid-for-project-in-lambda/2.png)
+
+3. In the Lambda dashboard, click on "Create function button"
+
+    ![Create function button](src/images/guid-for-project-in-lambda/3.png)
+
+4. Choose a name for your function and select the Runtime based (for our project Java 8 on Amazon Linux 2)
+
+    ![Choose a name for your function](src/images/guid-for-project-in-lambda/4.png)
+
+5. To finalize this new function creation, click the "Create function" button.
+
+    ![Create function](src/images/guid-for-project-in-lambda/5.png)
+
+6. Your project will be created.
+
+    ![Create function](src/images/guid-for-project-in-lambda/6.png)
+
+7. Replace the Code source with your own .jar file (upload it from your device).
+
+    ![project will be created](src/images/guid-for-project-in-lambda/7.png)
+ 
+8. For the correct implementation of the project, it is necessary to enter the main function name in the project in this field
+
+    ![enter the main function name](src/images/guid-for-project-in-lambda/8.png)
+ 
+9. In the Handler field, delete the default name and enter the desired function name
+
+    ![Handler field](src/images/guid-for-project-in-lambda/9.png)
+ 
+10. You can test your project to ensure it's working properly (consider next 3 steps for testing purpose).
+
+    ![Handler field](src/images/guid-for-project-in-lambda/10.png)
+
+11. Go to the Test tab, choose an arbitrary name for the event and save it. So that you can hit the Test b/utton whenever you need to test your project
+
+    ![Go to the Test tab](src/images/guid-for-project-in-lambda/11.png)
+
+12. If your project is healthy and you've entered the function name correctly, you will see a message indicating successful execution.
+
+    ![successful](src/images/guid-for-project-in-lambda/12.png)
+
+   **___Log output___** : 
+
+   ![successful](src/images/guid-for-project-in-lambda/12.png)
+
+
+
+
+
+
 
 ### Upload the Jar File to Lambda
 
