@@ -91,7 +91,7 @@ Setup Guide
     ![DOWNLOAD JSON](src/images/generate-json-file/14.png)
 
 15. After creating the JSON file in the Google Search Console API, the generated file needs to be uploaded to an environment that can provide a direct link.
-
+**In the next steps, you need to upload this generated JSON file to Lambda**
 
 
 ### Compile the Project as a Single Jar File
@@ -251,20 +251,6 @@ Setup Guide
 
     ![Existing rules](src/images/guid-for-project-in-lambda/19.png)
 
-
-
-
-### Upload the Jar File to Lambda
-
-1.  In the Lambda function, go to the "Code" tab and click "Upload from" and select "Upload a .zip or .jar file".
-2.  Upload the compiled Jar file.
-3.  Set the handler to the appropriate Java handler (e.g., `arash.gscfetcher.GSCFetcher::handleRequest`).
-
-### Test and Increase Timeout
-
-1.  Click "Test" to configure a test event.
-2.  Go to the "Configuration" tab and select "General configuration".
-3.  Increase the timeout setting as needed.
 
 Code Explanation
 ----------------
