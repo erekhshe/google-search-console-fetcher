@@ -223,10 +223,35 @@ Setup Guide
 
    **___Log output___** : 
 
-   ![successful](src/images/guid-for-project-in-lambda/12.png)
+    ![successful](src/images/guid-for-project-in-lambda/12.png)
 
+13. If there is an issue with the project you've defined, you will encounter an error. In this case, the error will be displayed to you. If you encounter a timeout error, you should perform the next two steps that exist in this guide to set the timeout.
 
+    ![timeout error](src/images/guid-for-project-in-lambda/13.png)
 
+14. To configure the settings for your function, go to the Configuration tab.
+
+    ![configure the settings](src/images/guid-for-project-in-lambda/14.png)
+
+15. In this tab, you can customize various settings for your Lambda function, such as memory allocation, timeout, environment variables, execution role, and more.
+
+    ![configure the settings](src/images/guid-for-project-in-lambda/15.png)
+
+16. To save on unnecessary resource consumption, automate, and improve the performance of the project, it is necessary to add a trigger. Click the "Add Trigger" button.
+
+    ![Add Trigger](src/images/guid-for-project-in-lambda/16.png)
+
+17. Select the "EventBridge (CloudWatch Events)" option.
+
+    ![EventBridge (CloudWatch Events)](src/images/guid-for-project-in-lambda/17.png)
+
+18. In the "Existing rules" section, select the "loop_daily_run" option. Click the "Add" button to save the settings.
+
+    ![Existing rules](src/images/guid-for-project-in-lambda/18.png)
+
+19. Finally, your trigger has been created and is displayed in this section.
+
+    ![Existing rules](src/images/guid-for-project-in-lambda/18.png)
 
 
 
