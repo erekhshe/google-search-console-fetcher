@@ -139,6 +139,30 @@ Setup Guide
 
 6. You will need to make some changes to the code based on the website and database specifications.
 
+Crucial Variables to Replace
+----------------------------
+
+There are three crucial variables in the code that users need to replace with their own values:
+
+1.  **Website URL:** Replace `"https://www.example.com"` with your own website URL in the `MyGSCFetcherFunction` method.
+    
+        String websiteUrl = "https://www.example.com";
+    
+2.  **Database Connection String:** Replace `"1.1.1.1:3306/database_name?user=user&password=password"` with your own MySQL database connection string in the `saveToDatabase` method.
+    
+        String connectionString = "1.1.1.1:3306/database_name?user=user&password=password";
+
+
+2.  **Table Name:** The name of the table in the database where you want to store the information
+    
+        String tableName = "your_table_name";
+
+    
+3.  **Credential URL:** Replace `"https://example.s3.amazonaws.com/gsc-credential.json"` with the URL to your uploaded JSON credential file in the `buildWebmasters` method.
+    
+        String credentialUrl = "https://example.s3.amazonaws.com/gsc-credential.json";
+
+
     ![database specifications](src/images/compile-the-project/6.png)
 
 7. After making the changes, right-click on the project name and select Run As > Maven install.
@@ -186,22 +210,7 @@ The `GSCFetcher` class implements `RequestHandler` to handle AWS Lambda requests
 *   `saveToDatabase`: Saves the fetched data to a MySQL database.
 *   `buildWebmasters`: Builds the Webmasters client using the provided credentials.
 
-Crucial Variables to Replace
-----------------------------
 
-There are three crucial variables in the code that users need to replace with their own values:
-
-1.  **Website URL:** Replace `"https://www.example.com"` with your own website URL in the `MyGSCFetcherFunction` method.
-    
-        String websiteUrl = "https://www.example.com";
-    
-2.  **Database Connection String:** Replace `"1.1.1.1:3306/database_name?user=user&password=password"` with your own MySQL database connection string in the `saveToDatabase` method.
-    
-        String connectionString = "1.1.1.1:3306/database_name?user=user&password=password";
-    
-3.  **Credential URL:** Replace `"https://example.s3.amazonaws.com/gsc-credential.json"` with the URL to your uploaded JSON credential file in the `buildWebmasters` method.
-    
-        String credentialUrl = "https://example.s3.amazonaws.com/gsc-credential.json";
     
 
 Running Tests Locally
