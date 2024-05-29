@@ -221,9 +221,7 @@ Setup Guide
 
    **___Log output___** : 
 
-   ![successful](src/images/guid-for-project-in-lambda/11.png){: .thumbnail-image}
-
-[![successful](src/images/guid-for-project-in-lambda/11.png "Click to expand")](src/images/guid-for-project-in-lambda/11.png){: .thumbnail-image}
+   [![successful](src/images/guid-for-project-in-lambda/12.png)]{: .thumbnail-image}
    
 
 13. If there is an issue with the project you've defined, you will encounter an error. In this case, the error will be displayed to you. If you encounter a timeout error, you should perform the next two steps that exist in this guide to set the timeout.
