@@ -215,11 +215,11 @@ Setup Guide
 
 11. Go to the Test tab, choose an arbitrary name for the event and save it. So that you can hit the Test b/utton whenever you need to test your project
 
-    ![Go to the Test tab](src/images/guid-for-project-in-lambda/11.png)
+    ![Go to the Test tab](src/images/guid-for-project-in-lambda/10.png)
 
 12. If your project is healthy and you've entered the function name correctly, you will see a message indicating successful execution.
 
-    ![successful](src/images/guid-for-project-in-lambda/12.png)
+    ![successful](src/images/guid-for-project-in-lambda/11.png)
 
    **___Log output___** : 
 
@@ -251,7 +251,7 @@ Setup Guide
 
 19. Finally, your trigger has been created and is displayed in this section.
 
-    ![Existing rules](src/images/guid-for-project-in-lambda/18.png)
+    ![Existing rules](src/images/guid-for-project-in-lambda/19.png)
 
 
 
