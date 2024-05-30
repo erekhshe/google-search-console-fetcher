@@ -33,7 +33,7 @@ Table of Contents
 Setup Guide
 -----------
 <head>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="src/help/css/styles.css">
 </head>
 
 ### Generate Google Search Console API Credentials
