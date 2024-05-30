@@ -36,12 +36,13 @@ Setup Guide
 ### Generate Google Search Console API Credentials
 1.  Go to the Google Developers Console. And click on “CREATE PROJECT“ in the top menu.
 
-   [View larger image](https://github.com/erekhshe/erekhshe.github.io)
-    <img src="src/help/images/generate-json-file/1.png" alt="CREATE PROJECT" class="thumbnail">  
+    <a href="https://uploadkon.ir/uploads/458e30_241.png">
+       <img src="https://uploadkon.ir/uploads/thumbs/458e30_241.png" alt="CREATE PROJECT" class="thumbnail">
+    </a> 
 
 2. Specify the name of the desired project and the address of your project file.
 
-   <img src="src/help/images/generate-json-file/2.png" alt="Specify the name" class="thumbnail">
+   <img src="src/help/images/generate-json-file/2.png" alt="Specify the name" class="thumbnail" style="opacity:.8;">
 
 3. You can change the project ID. (Note that you can only change the ID at this stage.)
 
