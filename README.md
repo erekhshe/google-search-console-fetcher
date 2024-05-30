@@ -39,7 +39,7 @@ Setup Guide
 ### Generate Google Search Console API Credentials
 1.  Go to the Google Developers Console. And click on “CREATE PROJECT“ in the top menu.
 
-   <img src="src/help/images/generate-json-file/1.png" alt="Thumbnail Image" class="thumbnail">    
+    <img src="src/help/images/generate-json-file/1.png" alt="Thumbnail Image" class="thumbnail">    
 
 2. Specify the name of the desired project and the address of your project file.
 
