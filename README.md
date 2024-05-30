@@ -35,23 +35,6 @@ Setup Guide
 <head>
   <link rel="stylesheet" href="src/help/css/styles.css">
 </head>
-<body>
-  <!-- Readme content -->
-  <script>
-
-     function openModal(img) {
-  var modal = document.getElementById("modal");
-  var modalImg = document.getElementById("modal-image");
-  modal.style.display = "block";
-  modalImg.src = img.src;
-}
-
-function closeModal() {
-  var modal = document.getElementById("modal");
-  modal.style.display = "none";
-}
-  </script>
-</body>
 
 ### Generate Google Search Console API Credentials
 1.  Go to the Google Developers Console. And click on “CREATE PROJECT“ in the top menu.
