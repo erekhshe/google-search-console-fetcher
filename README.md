@@ -38,14 +38,11 @@ Setup Guide
 
 ### Generate Google Search Console API Credentials
 1.  Go to the Google Developers Console. And click on “CREATE PROJECT“ in the top menu.
-    <a href="#" onclick="openModal(this)">
-      <img src="src/help/images/generate-json-file/1.png" alt="CREATE PROJECT" class="thumbnail">
-    </a>
 
-<div id="modal" class="modal">
-  <span class="close-button" onclick="closeModal()">&times;</span>
-  <img class="modal-content" id="modal-image">
-</div>
+    <div class="thumb-container"> 
+        <img class="thumb-image" src="src/help/images/generate-json-file/1.png" alt="Thumbnail Image"> 
+    </div> 
+
     
 
 2. Specify the name of the desired project and the address of your project file.
