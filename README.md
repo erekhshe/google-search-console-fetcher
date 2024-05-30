@@ -145,9 +145,9 @@ Setup Guide
 
 1.	Click on File > New > Maven Project.
 
-   <a href="https://uploadkon.ir/uploads/645c30_241.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/645c30_241.png" alt="Maven Project" class="thumbnail">
-   </a>
+      <a href="https://uploadkon.ir/uploads/645c30_241.png" target="_blank">
+          <img src="https://uploadkon.ir/uploads/thumbs/645c30_241.png" alt="Maven Project" class="thumbnail">
+      </a>
 
 2. Check the "Create a simple project" box and click Next.
 
@@ -210,7 +210,9 @@ Setup Guide
 
 9. Navigate to the project directory and you will find the generated zip file (.jar) in the target folder.
 
-    ![zip file (.jar)](src/images/compile-the-project/9.png)
+   <a href="https://uploadkon.ir/uploads/625930_249.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/625930_249.png" alt="zip file jar" class="thumbnail">
+   </a>
 
 
 ### Create a Lambda Project on Amazon
