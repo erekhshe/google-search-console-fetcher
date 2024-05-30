@@ -60,23 +60,33 @@ Setup Guide
 
 5. After registering your project, a successful registration notification will be displayed for you. Click on “Select Project“ to enter your project.
 
-   <img src="src/help/images/generate-json-file/5.png" alt="Select Project" class="thumbnail">
+   <a href="https://uploadkon.ir/uploads/111230_245.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/111230_245.png" alt="Select Project" class="thumbnail">
+   </a>
 
 6. To set up the API, click on “Go to API's overview”
 
-   <img src="src/help/images/generate-json-file/6.png" alt="Go to API's overview" class="thumbnail">
+   <a href="https://uploadkon.ir/uploads/111230_246.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/111230_246.png" alt="Go to API's overview" class="thumbnail">
+   </a>
 
 7. Click on one of the following items, “Library”.
 
-   <img src="src/help/images/generate-json-file/7.png" alt="Library" class="thumbnail">
+   <a href="https://uploadkon.ir/uploads/111230_247.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/111230_247.png" alt="Library" class="thumbnail">
+   </a>
 
 8.	Search for the phrase "Google Search Console API" in the search box
 
-  	<img src="src/help/images/generate-json-file/8.png" alt="Google Search Console API" class="thumbnail">
+      <a href="https://uploadkon.ir/uploads/111230_248.png" target="_blank">
+          <img src="https://uploadkon.ir/uploads/thumbs/111230_248.png" alt="Google Search Console API" class="thumbnail">
+      </a>
 
 9. Click on the search result.
 
-   <img src="src/help/images/generate-json-file/9.png" alt="search result" class="thumbnail">
+   <a href="https://uploadkon.ir/uploads/111230_248.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/111230_249.png" alt="search result" class="thumbnail">
+   </a>
 
 10. Click on the “Enable“ button to activate the API.
 
