@@ -35,6 +35,10 @@ Setup Guide
 <head>
   <link rel="stylesheet" href="src/help/css/styles.css">
 </head>
+<body>
+  <!-- Readme content -->
+  <script src="src/help/js/script.js"></script>
+</body>
 
 ### Generate Google Search Console API Credentials
 1.  Go to the Google Developers Console. And click on “CREATE PROJECT“ in the top menu.
