@@ -145,54 +145,68 @@ Setup Guide
 
 1.	Click on File > New > Maven Project.
 
-    ![Maven Project](src/images/compile-the-project/1.png)
+   <a href="https://uploadkon.ir/uploads/645c30_241.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/645c30_241.png" alt="Maven Project" class="thumbnail">
+   </a>
 
 2. Check the "Create a simple project" box and click Next.
 
-    ![Create a simple project](src/images/compile-the-project/2.png)
-   
+   <a href="https://uploadkon.ir/uploads/625930_242.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/625930_242.png" alt="Create a simple project" class="thumbnail">
+   </a>
 
-3. Check the "Create a simple project" box and click Next.
+3. Fill out the first two fields as shown in the image, then click Finish.
 
-    ![Specify the name](src/images/compile-the-project/3.png)
+   <a href="https://uploadkon.ir/uploads/601930_243.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/601930_243.png" alt="Specify the name" class="thumbnail">
+   </a>
 
 4. Download the project from GitHub and replace the internal files in the eclipse-workspace.
 
-    ![replace the internal files in the eclipse-workspace](src/images/compile-the-project/4.png)
-
+   <a href="https://uploadkon.ir/uploads/601930_244.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/601930_244.png" alt="eplace the internal files in the eclipse-workspace" class="thumbnail">
+   </a>
 
 5. Refresh the project in the software once to make the changes appear (right-click and select Refresh).
 
-    ![Refresh the project](src/images/compile-the-project/5.png)
+   <a href="https://uploadkon.ir/uploads/22b930_245.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/22b930_245.png" alt="Refresh the project" class="thumbnail">
+   </a>
 
 6. You must replace the **4** important variables in the code based on the specifications of the website Url, Database , Table Name, and your Credential URL.
 
-1.  **Website URL:** Replace `"https://www.example.com"` with your own website URL in the `MyGSCFetcherFunction` method.
+   +  **Website URL:** Replace `"https://www.example.com"` with your own website URL in the `MyGSCFetcherFunction` method.
     
         String websiteUrl = "https://www.example.com";
     
-2.  **Database Connection String:** Replace `"1.1.1.1:3306/database_name?user=user&password=password"` with your own MySQL database connection string in the `saveToDatabase` method.
+   +  **Database Connection String:** Replace `"1.1.1.1:3306/database_name?user=user&password=password"` with your own MySQL database connection string in the             `saveToDatabase` method.
     
         String connectionString = "1.1.1.1:3306/database_name?user=user&password=password";
 
-3.  **Table Name:** The name of the table in the database where you want to store the information
+   +  **Table Name:** The name of the table in the database where you want to store the information
     
         String tableName = "your_table_name";
 
-4.  **Credential URL:** Replace `"https://example.s3.amazonaws.com/gsc-credential.json"` with the URL to your uploaded JSON credential file in the `buildWebmasters` method.
+   +  **Credential URL:** Replace `"https://example.s3.amazonaws.com/gsc-credential.json"` with the URL to your uploaded JSON credential file in the                       `buildWebmasters` method.
     
         String credentialUrl = "https://example.s3.amazonaws.com/gsc-credential.json";
 
 
-    ![database specifications](src/images/compile-the-project/6.png)
+   <a href="https://uploadkon.ir/uploads/1bee30_246.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/1bee30_246.png" alt="database specifications" class="thumbnail">
+   </a>
 
 7. After making the changes, right-click on the project name and select Run As > Maven install.
 
-    ![Run As > Maven install](src/images/compile-the-project/7.png)
+   <a href="https://uploadkon.ir/uploads/1bee30_247.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/1bee30_247.png" alt="Run As > Maven install" class="thumbnail">
+   </a>
 
 8. The console will display a report indicating the successful completion of the operation.
 
-    ![successful completion of the operation](src/images/compile-the-project/8.png)
+   <a href="https://uploadkon.ir/uploads/1bee30_248.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/1bee30_248.png" alt="successful completion of the operation" class="thumbnail">
+   </a>
 
 9. Navigate to the project directory and you will find the generated zip file (.jar) in the target folder.
 
