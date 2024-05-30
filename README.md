@@ -96,26 +96,26 @@ Setup Guide
 
 11. Go to the Credentials page. Click on the “Create credentials“ option in the top menu and select “OAuth client ID”.
 
-    <a href="https://uploadkon.ir/uploads/a16c30_2411.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/a16c30_2411.png" alt="Credentials page" class="thumbnail">
+    <a href="https://uploadkon.ir/uploads/111230_2411.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/111230_2411.png" alt="Credentials page" class="thumbnail">
     </a>
 
 12. Select the “Web application” option
 
-    <a href="https://uploadkon.ir/uploads/a16c30_2412.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/a16c30_2412.png" alt="Web application" class="thumbnail">
+    <a href="https://uploadkon.ir/uploads/9e9930_2412.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/9e9930_2412.png" alt="Web application" class="thumbnail">
     </a>
 
 13. After selecting Web application, some fields will be displayed for you.Fill in the fields according to your needs, then click on the “CREATE“ button
 
-    <a href="https://uploadkon.ir/uploads/a16c30_2413.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/a16c30_2413.png" alt="Fill in the fields according to your needs" class="thumbnail">
+    <a href="https://uploadkon.ir/uploads/9e9930_2413.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/9e9930_2413.png" alt="Fill in the fields according to your needs" class="thumbnail">
     </a>
 
 14. Click on the “DOWNLOAD JSON”.
 
-    <a href="https://uploadkon.ir/uploads/a16c30_2414.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/a16c30_2414.png" alt="DOWNLOAD JSON" class="thumbnail">
+    <a href="https://uploadkon.ir/uploads/111230_2414.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/111230_2414.png" alt="DOWNLOAD JSON" class="thumbnail">
     </a>
 
 15. After creating the JSON file in the Google Search Console API, the generated file needs to be uploaded to an environment that can provide a direct link.
