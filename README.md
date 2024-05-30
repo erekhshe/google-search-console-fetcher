@@ -42,15 +42,21 @@ Setup Guide
 
 2. Specify the name of the desired project and the address of your project file.
 
-   <img src="src/help/images/generate-json-file/2.png" alt="Specify the name" class="thumbnail" style="opacity:.8;">
+   <a href="https://uploadkon.ir/uploads/9e9930_242.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/9e9930_242.png" alt="Specify the name" class="thumbnail">
+   </a> 
 
 3. You can change the project ID. (Note that you can only change the ID at this stage.)
 
-   <img src="src/help/images/generate-json-file/3.png" alt="change the project ID" class="thumbnail">
+   <a href="https://uploadkon.ir/uploads/111230_243.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/111230_243.png" alt="change the project ID" class="thumbnail">
+   </a> 
 
 4. After changing the ID, click on the “CREATE” button to create your project.
 
-   <img src="src/help/images/generate-json-file/4.png" alt="click on the CREATE button" class="thumbnail">
+   <a href="https://uploadkon.ir/uploads/111230_244.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/111230_244.png" alt="click on the CREATE button" class="thumbnail">
+   </a>
 
 5. After registering your project, a successful registration notification will be displayed for you. Click on “Select Project“ to enter your project.
 
