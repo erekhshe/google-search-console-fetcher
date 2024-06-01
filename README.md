@@ -219,49 +219,71 @@ Setup Guide
 
 1.	Log into your account and then access the console
 
-    ![Log into your account](src/images/guid-for-project-in-lambda/1.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_241.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_241.png" alt="Log into your account" class="thumbnail">
+   </a>
 
 2. Find the Lambda Service and enter to its environment
 
-    ![Lambda Service](src/images/guid-for-project-in-lambda/2.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_242.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_242.png" alt="Lambda Service" class="thumbnail">
+   </a>
 
 3. In the Lambda dashboard, click on "Create function button"
 
-    ![Create function button](src/images/guid-for-project-in-lambda/3.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_243.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_243.png" alt="Create function button" class="thumbnail">
+   </a>
 
 4. Choose a name for your function and select the Runtime based (for our project Java 8 on Amazon Linux 2)
 
-    ![Choose a name for your function](src/images/guid-for-project-in-lambda/4.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_244.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_244.png" alt="Choose a name for your function" class="thumbnail">
+   </a>
 
 5. To finalize this new function creation, click the "Create function" button.
 
-    ![Create function](src/images/guid-for-project-in-lambda/5.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_245.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_245.png" alt="Create function" class="thumbnail">
+   </a>
 
 6. Your project will be created.
 
-    ![Create function](src/images/guid-for-project-in-lambda/6.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_246.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_246.png" alt="Create function" class="thumbnail">
+   </a>
 
 7. Replace the Code source with your own .jar file (upload it from your device).
 
-    ![project will be created](src/images/guid-for-project-in-lambda/7.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_247.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_247.png" alt="project will be created" class="thumbnail">
+   </a>
  
 8. For the correct implementation of the project, it is necessary to enter the main function name in the project in this field
 
-    ![enter the main function name](src/images/guid-for-project-in-lambda/8.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_248.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_248.png" alt="enter the main function name" class="thumbnail">
+   </a>
  
 9. In the Handler field, delete the default name and enter the desired function name
 
-    ![Handler field](src/images/guid-for-project-in-lambda/9.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_249.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_249.png" alt="Handler field" class="thumbnail">
+   </a>
  
 10. You can test your project to ensure it's working properly (consider next 3 steps for testing purpose).
 
 11. Go to the Test tab, choose an arbitrary name for the event and save it. So that you can hit the Test b/utton whenever you need to test your project
 
-    ![Go to the Test tab](src/images/guid-for-project-in-lambda/10.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_2410.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2410.png" alt="Go to the Test tab" class="thumbnail">
+   </a>
 
 12. If your project is healthy and you've entered the function name correctly, you will see a message indicating successful execution.
 
-    ![successful](src/images/guid-for-project-in-lambda/11.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_2411.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2411.png" alt="successful" class="thumbnail">
+   </a>
 
     -**___Log output___** : 
 
@@ -269,31 +291,45 @@ Setup Guide
 
 13. If there is an issue with the project you've defined, you will encounter an error. In this case, the error will be displayed to you. If you encounter a timeout error, you should perform the next two steps that exist in this guide to set the timeout.
 
-    ![timeout error](src/images/guid-for-project-in-lambda/13.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_2412.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2412.png" alt="timeout error" class="thumbnail">
+   </a>
 
 14. To configure the settings for your function, go to the Configuration tab.
 
-    ![configure the settings](src/images/guid-for-project-in-lambda/14.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_2413.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2413.png" alt="configure the settings" class="thumbnail">
+   </a>
 
 15. In this tab, you can customize various settings for your Lambda function, such as memory allocation, timeout, environment variables, execution role, and more.
 
-    ![configure the settings](src/images/guid-for-project-in-lambda/15.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_2414.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2414.png" alt="configure the settings" class="thumbnail">
+   </a>
 
 16. To save on unnecessary resource consumption, automate, and improve the performance of the project, it is necessary to add a trigger. Click the "Add Trigger" button.
 
-    ![Add Trigger](src/images/guid-for-project-in-lambda/16.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_2415.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2415.png" alt="Add Trigger" class="thumbnail">
+   </a>
 
 17. Select the "EventBridge (CloudWatch Events)" option.
 
-    ![EventBridge (CloudWatch Events)](src/images/guid-for-project-in-lambda/17.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_2416.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2416.png" alt="EventBridge (CloudWatch Events)" class="thumbnail">
+   </a>
 
 18. In the "Existing rules" section, select the "loop_daily_run" option. Click the "Add" button to save the settings.
 
-    ![Existing rules](src/images/guid-for-project-in-lambda/18.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_2417.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2417.png" alt="Existing rules" class="thumbnail">
+   </a>
 
 19. Finally, your trigger has been created and is displayed in this section.
 
-    ![Existing rules](src/images/guid-for-project-in-lambda/19.png)
+   <a href="https://uploadkon.ir/uploads/6f9a01_2419.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2419.png" alt="your trigger has been created" class="thumbnail">
+   </a>
 
 
 Code Explanation
