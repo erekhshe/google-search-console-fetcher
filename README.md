@@ -219,9 +219,9 @@ Setup Guide
 
 1.	Log into your account and then access the console
 
-   <a href="https://uploadkon.ir/uploads/6f9a01_241.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_241.png" alt="Log into your account" class="thumbnail">
-   </a>
+      <a href="https://uploadkon.ir/uploads/6f9a01_241.png" target="_blank">
+          <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_241.png" alt="Log into your account" class="thumbnail">
+      </a>
 
 2. Find the Lambda Service and enter to its environment
 
@@ -275,61 +275,64 @@ Setup Guide
 
 11. Go to the Test tab, choose an arbitrary name for the event and save it. So that you can hit the Test b/utton whenever you need to test your project
 
-   <a href="https://uploadkon.ir/uploads/6f9a01_2410.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2410.png" alt="Go to the Test tab" class="thumbnail">
-   </a>
+      <a href="https://uploadkon.ir/uploads/6f9a01_2410.png" target="_blank">
+          <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2410.png" alt="Go to the Test tab" class="thumbnail">
+      </a>
 
 12. If your project is healthy and you've entered the function name correctly, you will see a message indicating successful execution.
 
-   <a href="https://uploadkon.ir/uploads/6f9a01_2411.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2411.png" alt="successful" class="thumbnail">
-   </a>
+      <a href="https://uploadkon.ir/uploads/6f9a01_2411.png" target="_blank">
+          <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2411.png" alt="successful" class="thumbnail">
+      </a>
 
-    -**___Log output___** : 
+      -**___Log output___** : 
 
-     ![Log output](src/images/guid-for-project-in-lambda/12.png)
+      <a href="https://uploadkon.ir/uploads/6f9a01_2412.png" target="_blank">
+          <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2412.png" alt="timeout error" class="thumbnail">
+      </a>
+     
 
 13. If there is an issue with the project you've defined, you will encounter an error. In this case, the error will be displayed to you. If you encounter a timeout error, you should perform the next two steps that exist in this guide to set the timeout.
 
-   <a href="https://uploadkon.ir/uploads/6f9a01_2412.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2412.png" alt="timeout error" class="thumbnail">
-   </a>
+      <a href="https://uploadkon.ir/uploads/6f9a01_2413.png" target="_blank">
+          <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2413.png" alt="configure the settings" class="thumbnail">
+      </a>
 
 14. To configure the settings for your function, go to the Configuration tab.
 
-   <a href="https://uploadkon.ir/uploads/6f9a01_2413.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2413.png" alt="configure the settings" class="thumbnail">
-   </a>
+      <a href="https://uploadkon.ir/uploads/6f9a01_2414.png" target="_blank">
+          <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2414.png" alt="configure the settings" class="thumbnail">
+      </a>
 
 15. In this tab, you can customize various settings for your Lambda function, such as memory allocation, timeout, environment variables, execution role, and more.
 
-   <a href="https://uploadkon.ir/uploads/6f9a01_2414.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2414.png" alt="configure the settings" class="thumbnail">
-   </a>
+      <a href="https://uploadkon.ir/uploads/6f9a01_2415.png" target="_blank">
+          <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2415.png" alt="Add Trigger" class="thumbnail">
+      </a>
 
 16. To save on unnecessary resource consumption, automate, and improve the performance of the project, it is necessary to add a trigger. Click the "Add Trigger" button.
 
-   <a href="https://uploadkon.ir/uploads/6f9a01_2415.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2415.png" alt="Add Trigger" class="thumbnail">
-   </a>
+      <a href="https://uploadkon.ir/uploads/6f9a01_2416.png" target="_blank">
+          <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2416.png" alt="EventBridge (CloudWatch Events)" class="thumbnail">
+      </a>
 
 17. Select the "EventBridge (CloudWatch Events)" option.
 
-   <a href="https://uploadkon.ir/uploads/6f9a01_2416.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2416.png" alt="EventBridge (CloudWatch Events)" class="thumbnail">
-   </a>
+      <a href="https://uploadkon.ir/uploads/6f9a01_2417.png" target="_blank">
+          <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2417.png" alt="Existing rules" class="thumbnail">
+      </a>
 
 18. In the "Existing rules" section, select the "loop_daily_run" option. Click the "Add" button to save the settings.
 
-   <a href="https://uploadkon.ir/uploads/6f9a01_2417.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2417.png" alt="Existing rules" class="thumbnail">
-   </a>
+      <a href="https://uploadkon.ir/uploads/6f9a01_2417.png" target="_blank">
+          <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2418.png" alt="Existing rules" class="thumbnail">
+      </a>
 
 19. Finally, your trigger has been created and is displayed in this section.
 
-   <a href="https://uploadkon.ir/uploads/6f9a01_2419.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2419.png" alt="your trigger has been created" class="thumbnail">
-   </a>
+      <a href="https://uploadkon.ir/uploads/6f9a01_2419.png" target="_blank">
+          <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2419.png" alt="your trigger has been created" class="thumbnail">
+      </a>
 
 
 Code Explanation
