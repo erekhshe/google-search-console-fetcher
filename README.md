@@ -34,92 +34,78 @@ Setup Guide
 -----------
 
 ### Generate Google Search Console API Credentials
-1.  Go to the Google Developers Console. And click on “CREATE PROJECT“ in the top menu.
+1.  Go to the [Google Developers Console](https://console.cloud.google.com/cloud-resource-manager).And click on “CREATE PROJECT“ in the top menu.
+   (If you are not logged in to your Google account, you will need to log in first before you can generate the Google Search Console API credentials. This is because the Google Search Console API requires authentication with a valid Google account in order to access the data and perform actions.)
 
     <a href="https://uploadkon.ir/uploads/458e30_241.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/458e30_241.png" alt="CREATE PROJECT" class="thumbnail">
     </a> 
 
-2. Specify the name of the desired project and the address of your project file.
+2. Specify the name of the desired project and the address of your project file. click on the “CREATE” button to create your project.
 
-   <a href="https://uploadkon.ir/uploads/9e9930_242.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/9e9930_242.png" alt="Specify the name" class="thumbnail">
+   <a href="https://uploadkon.ir/uploads/dcac01_242.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/dcac01_242.png" alt="Specify the name" class="thumbnail">
    </a> 
 
-3. You can change the project ID. (Note that you can only change the ID at this stage.)
-
-   <a href="https://uploadkon.ir/uploads/111230_243.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/111230_243.png" alt="change the project ID" class="thumbnail">
-   </a> 
-
-4. After changing the ID, click on the “CREATE” button to create your project.
-
-   <a href="https://uploadkon.ir/uploads/111230_244.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/111230_244.png" alt="click on the CREATE button" class="thumbnail">
-   </a>
-
-5. After registering your project, a successful registration notification will be displayed for you. Click on “Select Project“ to enter your project.
+4. After registering your project, a successful registration notification will be displayed for you. Select your project to enter its environment
 
    <a href="https://uploadkon.ir/uploads/111230_245.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/111230_245.png" alt="Select Project" class="thumbnail">
    </a>
 
-6. To set up the API, click on “Go to API's overview”
+5. To set up the API, click on “Go to APIs overview”
 
    <a href="https://uploadkon.ir/uploads/111230_246.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/111230_246.png" alt="Go to API's overview" class="thumbnail">
    </a>
 
-7. Click on one of the following items, “Library”.
+6. Click on  the “Library”.
 
    <a href="https://uploadkon.ir/uploads/111230_247.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/111230_247.png" alt="Library" class="thumbnail">
    </a>
 
-8.	Search for the phrase "Google Search Console API" in the search box
+7.	Search for the phrase "Google Search Console API" in the search box
 
       <a href="https://uploadkon.ir/uploads/111230_248.png" target="_blank">
           <img src="https://uploadkon.ir/uploads/thumbs/111230_248.png" alt="Google Search Console API" class="thumbnail">
       </a>
 
-9. Click on the search result.
+8. On the search result click on the google search console
 
    <a href="https://uploadkon.ir/uploads/a16c30_249.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/a16c30_249.png" alt="search result" class="thumbnail">
    </a>
 
-10. Click on the “Enable“ button to activate the API.
+9. Click on the “Enable“ button to activate the API.
 
     <a href="https://uploadkon.ir/uploads/a16c30_2410.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/a16c30_2410.png" alt="Enable button" class="thumbnail">
     </a>
 
-11. Go to the Credentials page. Click on the “Create credentials“ option in the top menu and select “OAuth client ID”.
+10. Go to the Credentials page. Click on the “Create credentials“ option in the top menu and select “OAuth client ID”.
 
     <a href="https://uploadkon.ir/uploads/111230_2411.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/111230_2411.png" alt="Credentials page" class="thumbnail">
     </a>
 
-12. Select the “Web application” option
+11. Select the “Web application” option
 
     <a href="https://uploadkon.ir/uploads/9e9930_2412.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/9e9930_2412.png" alt="Web application" class="thumbnail">
     </a>
 
-13. After selecting Web application, some fields will be displayed for you.Fill in the fields according to your needs, then click on the “CREATE“ button
+12. After selecting Web application, some fields will be displayed for you. Fill in the fields according to your needs, then click on the “CREATE“ button
 
     <a href="https://uploadkon.ir/uploads/9e9930_2413.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/9e9930_2413.png" alt="Fill in the fields according to your needs" class="thumbnail">
     </a>
 
-14. Click on the “DOWNLOAD JSON”.
+13. Click on the “DOWNLOAD JSON”.
 
     <a href="https://uploadkon.ir/uploads/111230_2414.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/111230_2414.png" alt="DOWNLOAD JSON" class="thumbnail">
     </a>
-
-15. After creating the JSON file in the Google Search Console API, the generated file needs to be uploaded to an environment that can provide a direct link.
-**In the next steps, you need to upload this generated JSON file to Lambda**
 
 
 ### Compile the Project as a Single Jar File
