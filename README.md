@@ -246,13 +246,13 @@ In general, the compilation can be done with the command "mvn clean install"
        <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_247.png" alt="project will be created" class="thumbnail">
    </a>
  
-8. For the correct implementation of the project, it is necessary to enter the main function name in the project in this field
+8. For the correct implementation of the project, it is necessary to enter the main function name in the project in "Handler" field
 
    <a href="https://uploadkon.ir/uploads/6f9a01_248.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_248.png" alt="enter the main function name" class="thumbnail">
    </a>
  
-9. In the Handler field, delete the default name and enter the function name
+9. In the Handler field, delete the default name and enter the function name **arash.gscfetcher.GSCFetcher::handleRequest**
 
    <a href="https://uploadkon.ir/uploads/6f9a01_249.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_249.png" alt="Handler field" class="thumbnail">
@@ -260,10 +260,10 @@ In general, the compilation can be done with the command "mvn clean install"
  
 10. You can test your project to ensure it's working properly (consider next 3 steps for testing purpose).
 
-11. Go to the Test tab, choose an arbitrary name for the event and save it. So that you can hit the Test button whenever you need to test your project
+11. Go to the Test tab, choose an arbitrary name for the event and save it. From now on you can hit the Test button whenever you need to test your project
 
-      <a href="https://uploadkon.ir/uploads/6f9a01_2410.png" target="_blank">
-          <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2410.png" alt="Go to the Test tab" class="thumbnail">
+      <a href="https://uploadkon.ir/uploads/c11601_2410.png" target="_blank">
+          <img src="https://uploadkon.ir/uploads/thumbs/c11601_2410.png" alt="Go to the Test tab" class="thumbnail">
       </a>
 
 12. If your project is healthy and you've entered the function name correctly, you will see a message indicating successful execution.
@@ -279,25 +279,25 @@ In general, the compilation can be done with the command "mvn clean install"
       </a>
      
 
-13. If there is an issue with the project you've defined, you will encounter an error. In this case, the error will be displayed to you. If you encounter a timeout error, you should perform the next two steps that exist in this guide to set the timeout.
+13. If there is an issue with the project you've defined, you will encounter an error. In this case, the error will be displayed to you. If you encounter a timeout error, you should perform the next two steps.
 
       <a href="https://uploadkon.ir/uploads/6f9a01_2413.png" target="_blank">
           <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2413.png" alt="configure the settings" class="thumbnail">
       </a>
 
-14. To configure the settings for your function, go to the Configuration tab.
+14. To configure the time out settings for your function, go to the Configuration tab.
 
       <a href="https://uploadkon.ir/uploads/6f9a01_2414.png" target="_blank">
           <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2414.png" alt="configure the settings" class="thumbnail">
       </a>
 
-15. In this tab, you can customize various settings for your Lambda function, such as memory allocation, timeout, environment variables, execution role, and more.
+15. In this tab, you can customize various settings for your Lambda function, such as memory allocation, timeout (set time out to 5 minutes), environment variables, execution role, and more.
 
       <a href="https://uploadkon.ir/uploads/6f9a01_2415.png" target="_blank">
           <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2415.png" alt="Add Trigger" class="thumbnail">
       </a>
 
-16. To save on unnecessary resource consumption, automate, and improve the performance of the project, it is necessary to add a trigger. Click the "Add Trigger" button.
+16. We want this project to run every day so that it can retrieve our Google Console data from a few days ago each day.
 
       <a href="https://uploadkon.ir/uploads/6f9a01_2416.png" target="_blank">
           <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2416.png" alt="EventBridge (CloudWatch Events)" class="thumbnail">
