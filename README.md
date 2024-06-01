@@ -22,8 +22,7 @@ Table of Contents
     *   [Generate Google Search Console API Credentials](#generate-google-search-console-api-credentials)
     *   [Compile the Project as a Single Jar File](#compile-the-project-as-a-single-jar-file)
     *   [Create a Lambda Project on Amazon](#create-a-lambda-project-on-amazon)
-    *   [The possibility of scheduling daily for automatic execution](#the-possibility-of-scheduling-daily-for-automatic-execution)
-    *   [Test and Increase Timeout](#test-and-increase-timeout)
+    *   [Schedule Daily Automatic Execution](#schedule-daily-automatic-execution)
 3.  [Code Explanation](#code-explanation)
 4.  [Crucial Variables to Replace](#crucial-variables-to-replace)
 5.  [Running Tests Locally](#running-tests-locally)
@@ -298,7 +297,7 @@ In general, the compilation can be done with the command "mvn clean install"
       </a>
 
 
-### The possibility of scheduling daily for automatic execution
+### Schedule Daily Automatic Execution:
 
 1. We want this project to run every day so that it can retrieve our Google Console data from a few days ago each day.
 
