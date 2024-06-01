@@ -37,14 +37,14 @@ Setup Guide
 1.  Go to the [Google Developers Console](https://console.cloud.google.com/cloud-resource-manager).And click on “CREATE PROJECT“ in the top menu.
    (If you are not logged in to your Google account, you will need to log in first before you can generate the Google Search Console API credentials. This is because the Google Search Console API requires authentication with a valid Google account in order to access the data and perform actions.)
 
-    <a href="https://uploadkon.ir/uploads/458e30_241.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/458e30_241.png" alt="CREATE PROJECT" class="thumbnail">
+    <a href="https://uploadkon.ir/uploads/416901_241.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/416901_241.png" alt="CREATE PROJECT" class="thumbnail">
     </a> 
 
 2. Specify the name of the desired project and the address of your project file. click on the “CREATE” button to create your project.
 
-   <a href="https://uploadkon.ir/uploads/dcac01_242.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/dcac01_242.png" alt="Specify the name" class="thumbnail">
+   <a href="https://uploadkon.ir/uploads/416901_242.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/416901_242.png" alt="Specify the name" class="thumbnail">
    </a> 
 
 4. After registering your project, a successful registration notification will be displayed for you. Select your project to enter its environment
@@ -95,13 +95,15 @@ Setup Guide
        <img src="https://uploadkon.ir/uploads/thumbs/9e9930_2412.png" alt="Web application" class="thumbnail">
     </a>
 
-12. After selecting Web application, some fields will be displayed for you. Fill in the fields according to your needs, then click on the “CREATE“ button
+12. After selecting Web application, some fields will be displayed for you. Enter a desired name and the name of the website you would like to get information about from the Google Search Console, enter it below. then click on the “CREATE“ button
 
-    <a href="https://uploadkon.ir/uploads/9e9930_2413.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/9e9930_2413.png" alt="Fill in the fields according to your needs" class="thumbnail">
+    <a href="https://uploadkon.ir/uploads/416901_2413.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/416901_2413.png" alt="Fill in the fields according to your needs" class="thumbnail">
     </a>
 
 13. Click on the “DOWNLOAD JSON”.
+-**___Please note that this file is only available for download once, so it's best to upload it to a secure space and provide you with a direct link.
+In the next steps, you will need the direct address of this file.___**
 
     <a href="https://uploadkon.ir/uploads/111230_2414.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/111230_2414.png" alt="DOWNLOAD JSON" class="thumbnail">
@@ -109,6 +111,7 @@ Setup Guide
 
 
 ### Compile the Project as a Single Jar File
+*In general, to compile this project, you just need to clone the repository and replace the 4 variables specified in the source code with your desired information, then follow the compilation steps.
 
 1.  Clone the repository:
     
@@ -125,11 +128,34 @@ Setup Guide
 4.  The compiled Jar file will be located in the `target` directory.
 
 
-**To compile in the Windows environment, you can use free IDEs such as Eclipse**.
+The 4 specific variables that need to be replaced with your desired information are:
+
+   +  **Website URL:** Replace `"https://www.example.com"` with your own website URL in the `MyGSCFetcherFunction` method.
+    
+        String websiteUrl = "https://www.example.com";
+    
+   +  **Database Connection String:** Replace `"1.1.1.1:3306/database_name?user=user&password=password"` with your own MySQL database connection string in the             `saveToDatabase` method.
+    
+        String connectionString = "1.1.1.1:3306/database_name?user=user&password=password";
+
+   +  **Table Name:** The name of the table in the database where you want to store the information
+    
+        String tableName = "your_table_name";
+
+   +  **Credential URL:** Replace `"https://example.s3.amazonaws.com/gsc-credential.json"` with the URL to your uploaded JSON credential file in the                       `buildWebmasters` method.
+    
+        String credentialUrl = "https://example.s3.amazonaws.com/gsc-credential.json";
+
+
+      <a href="https://uploadkon.ir/uploads/1bee30_246.png" target="_blank">
+          <img src="https://uploadkon.ir/uploads/thumbs/1bee30_246.png" alt="database specifications" class="thumbnail">
+      </a>
+
+**In general, the compilation can be done with the command "mvn clean install", and here we will explain the complete compilation process for Windows using the Eclipse IDE.**.
 
 *Follow the steps below*
 
-1.	Click on File > New > Maven Project.
+1.	Open Eclipse and Click on File > New > Maven Project.
 
       <a href="https://uploadkon.ir/uploads/645c30_241.png" target="_blank">
           <img src="https://uploadkon.ir/uploads/thumbs/645c30_241.png" alt="Maven Project" class="thumbnail">
@@ -141,7 +167,7 @@ Setup Guide
        <img src="https://uploadkon.ir/uploads/thumbs/625930_242.png" alt="Create a simple project" class="thumbnail">
    </a>
 
-3. Fill out the first two fields as shown in the image, then click Finish.
+3. Fill the first two fields with desired names, then click Finish.
 
    <a href="https://uploadkon.ir/uploads/601930_243.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/601930_243.png" alt="Specify the name" class="thumbnail">
@@ -221,7 +247,7 @@ Setup Guide
        <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_243.png" alt="Create function button" class="thumbnail">
    </a>
 
-4. Choose a name for your function and select the Runtime based (for our project Java 8 on Amazon Linux 2)
+4. Choose a desired name for your function and select the Runtime based (for our project Java 8 on Amazon Linux 2)
 
    <a href="https://uploadkon.ir/uploads/6f9a01_244.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_244.png" alt="Choose a name for your function" class="thumbnail">
@@ -251,7 +277,7 @@ Setup Guide
        <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_248.png" alt="enter the main function name" class="thumbnail">
    </a>
  
-9. In the Handler field, delete the default name and enter the desired function name
+9. In the Handler field, delete the default name and enter the function name
 
    <a href="https://uploadkon.ir/uploads/6f9a01_249.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_249.png" alt="Handler field" class="thumbnail">
@@ -259,7 +285,7 @@ Setup Guide
  
 10. You can test your project to ensure it's working properly (consider next 3 steps for testing purpose).
 
-11. Go to the Test tab, choose an arbitrary name for the event and save it. So that you can hit the Test b/utton whenever you need to test your project
+11. Go to the Test tab, choose an arbitrary name for the event and save it. So that you can hit the Test button whenever you need to test your project
 
       <a href="https://uploadkon.ir/uploads/6f9a01_2410.png" target="_blank">
           <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2410.png" alt="Go to the Test tab" class="thumbnail">
