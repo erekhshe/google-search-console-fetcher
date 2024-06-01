@@ -204,22 +204,22 @@ In general, the compilation can be done with the command "mvn clean install"
 
 ### Create a Lambda Project on Amazon
 
-1.	Log into your account and then access the console
+1.	[Go to the Amazon](https://aws.amazon.com/console/) and Log into your account and then access the console 
 
       <a href="https://uploadkon.ir/uploads/6f9a01_241.png" target="_blank">
           <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_241.png" alt="Log into your account" class="thumbnail">
       </a>
 
-2. Find the Lambda Service and enter to its environment
+2. You can search it in the services section that placed on top of the page.
 
-   <a href="https://uploadkon.ir/uploads/6f9a01_242.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_242.png" alt="Lambda Service" class="thumbnail">
+   <a href="https://uploadkon.ir/uploads/304a01_242.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/304a01_242.png" alt="Lambda Service" class="thumbnail">
    </a>
 
 3. In the Lambda dashboard, click on "Create function button"
 
-   <a href="https://uploadkon.ir/uploads/6f9a01_243.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_243.png" alt="Create function button" class="thumbnail">
+   <a href="https://uploadkon.ir/uploads/1f8201_243.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/1f8201_243.png" alt="Create function button" class="thumbnail">
    </a>
 
 4. Choose a desired name for your function and select the Runtime based (for our project Java 8 on Amazon Linux 2)
