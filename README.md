@@ -4,15 +4,15 @@ Google Search Console API Data Fetcher
 Overview
 --------
 
-The Google Search Console API Data Fetcher is a tool designed to automate the process of fetching data from the Google Search Console API and storing it into a MySQL database. This project uses Java and Maven, making it easy to build and deploy. It's also compatible with Amazon Lambda, allowing you to run it as a serverless application.
+The Google Search Console API Data Fetcher is a Java-based tool designed to automate the process of fetching data from the Google Search Console API and storing it into a MySQL database. This project uses Maven for easy build and deployment and can be executed as a serverless application on AWS Lambda. With this tool, you can streamline your search analytics data collection, ensuring your SEO strategies are data-driven and up-to-date.
 
-### Usage and Benefits
+### Key Features
 
-*   **Automate Data Fetching:** Automates the process of fetching search analytics data from Google Search Console.
-*   **Serverless Deployment:** Can be deployed on Amazon Lambda, making it cost-effective and scalable.
-*   **Customizable:** Fully documented code to help you customize or convert it to other programming languages.
-*   **Comprehensive:** Includes all required files, such as `pom.xml` for Maven configuration and a test unit for local testing, ensuring a smooth setup and deployment process.
-*   **Step-by-Step Guides:** Easy instructions for generating API credentials, compiling the project, and deploying it on Amazon Lambda.
+*   **Automated Data Fetching:** Seamlessly fetch search analytics data from Google Search Console.
+*   **Serverless Deployment:** Deploy on AWS Lambda for cost-effective and scalable operation.
+*   **Customizable:** Fully documented code for easy customization and adaptation.
+*   **Comprehensive Setup:** Includes all necessary files and a step-by-step guide for setting up and running the project.
+*   **Daily Execution:** Schedule automatic daily data fetch to keep your analytics up-to-date.
 
 Table of Contents
 -----------------
