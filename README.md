@@ -34,7 +34,7 @@ Setup Guide
 -----------
 
 ### Generate Google Search Console API Credentials
-1.  Go to the [Google Developers Console](https://console.cloud.google.com/cloud-resource-manager).And click on “CREATE PROJECT“ in the top menu.
+1.  Go to the [Google Developers Console](https://console.cloud.google.com/cloud-resource-manager). And click on “CREATE PROJECT“ in the top menu.
    (If you are not logged in to your Google account, you will need to log in first before you can generate the Google Search Console API credentials. This is because the Google Search Console API requires authentication with a valid Google account in order to access the data and perform actions.)
 
     <a href="https://uploadkon.ir/uploads/416901_241.png" target="_blank">
@@ -59,25 +59,25 @@ Setup Guide
        <img src="https://uploadkon.ir/uploads/thumbs/111230_246.png" alt="Go to API's overview" class="thumbnail">
    </a>
 
-6. Click on  the “Library”.
+6. Click on the “Library” or “Enable APIs and services”.
 
-   <a href="https://uploadkon.ir/uploads/111230_247.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/111230_247.png" alt="Library" class="thumbnail">
+   <a href="https:https://uploadkon.ir/uploads/dee801_247.png" target="_blank">
+       <img src="https://uploadkon.ir/uploads/thumbs/dee801_247.png" alt="Library" class="thumbnail">
    </a>
 
-7.	Search for the phrase "Google Search Console API" in the search box
+7.	Search for the phrase "Google Search Console API" in the search box API.
 
       <a href="https://uploadkon.ir/uploads/111230_248.png" target="_blank">
           <img src="https://uploadkon.ir/uploads/thumbs/111230_248.png" alt="Google Search Console API" class="thumbnail">
       </a>
 
-8. On the search result click on the google search console
+8. On the search result click on the google search console.
 
    <a href="https://uploadkon.ir/uploads/a16c30_249.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/a16c30_249.png" alt="search result" class="thumbnail">
    </a>
 
-9. Click on the “Enable“ button to activate the API.
+9. Click on the “Enable“ button.
 
     <a href="https://uploadkon.ir/uploads/a16c30_2410.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/a16c30_2410.png" alt="Enable button" class="thumbnail">
@@ -111,24 +111,16 @@ In the next steps, you will need the direct address of this file.___**
 
 
 ### Compile the Project as a Single Jar File
-*In general, to compile this project, you just need to clone the repository and replace the 4 variables specified in the source code with your desired information, then follow the compilation steps.
+In general, to compile this project, you just need to clone the repository and replace the 4 variables specified in the source code with your desired information, then follow the compilation steps.
 
-1.  Clone the repository:
+1.  To clone the repository:
     
         git clone https://github.com/erekhshe/gscFetcher.git
-    
-2.  Navigate to the project directory:
-    
-        cd gscFetcher
-    
-3.  Use Maven to compile the project:
-    
-        mvn clean install
     
 4.  The compiled Jar file will be located in the `target` directory.
 
 
-The 4 specific variables that need to be replaced with your desired information are:
+The **4 specific variables** that need to be replaced with your desired information are:
 
    +  **Website URL:** Replace `"https://www.example.com"` with your own website URL in the `MyGSCFetcherFunction` method.
     
@@ -151,7 +143,11 @@ The 4 specific variables that need to be replaced with your desired information 
           <img src="https://uploadkon.ir/uploads/thumbs/1bee30_246.png" alt="database specifications" class="thumbnail">
       </a>
 
-**In general, the compilation can be done with the command "mvn clean install", and here we will explain the complete compilation process for Windows using the Eclipse IDE.**.
+In general, the compilation can be done with the command "mvn clean install"
+    
+        mvn clean install
+
+ **here we will explain the complete compilation process for Windows using the Eclipse IDE.**
 
 *Follow the steps below*
 
@@ -185,28 +181,7 @@ The 4 specific variables that need to be replaced with your desired information 
        <img src="https://uploadkon.ir/uploads/thumbs/22b930_245.png" alt="Refresh the project" class="thumbnail">
    </a>
 
-6. You must replace the **4** important variables in the code based on the specifications of the website Url, Database , Table Name, and your Credential URL.
-
-   +  **Website URL:** Replace `"https://www.example.com"` with your own website URL in the `MyGSCFetcherFunction` method.
-    
-        String websiteUrl = "https://www.example.com";
-    
-   +  **Database Connection String:** Replace `"1.1.1.1:3306/database_name?user=user&password=password"` with your own MySQL database connection string in the             `saveToDatabase` method.
-    
-        String connectionString = "1.1.1.1:3306/database_name?user=user&password=password";
-
-   +  **Table Name:** The name of the table in the database where you want to store the information
-    
-        String tableName = "your_table_name";
-
-   +  **Credential URL:** Replace `"https://example.s3.amazonaws.com/gsc-credential.json"` with the URL to your uploaded JSON credential file in the                       `buildWebmasters` method.
-    
-        String credentialUrl = "https://example.s3.amazonaws.com/gsc-credential.json";
-
-
-   <a href="https://uploadkon.ir/uploads/1bee30_246.png" target="_blank">
-       <img src="https://uploadkon.ir/uploads/thumbs/1bee30_246.png" alt="database specifications" class="thumbnail">
-   </a>
+6. Don't forget to replace the **4 variables** in the source code that we explained earlier with your own information.
 
 7. After making the changes, right-click on the project name and select Run As > Maven install.
 
@@ -220,7 +195,7 @@ The 4 specific variables that need to be replaced with your desired information 
        <img src="https://uploadkon.ir/uploads/thumbs/1bee30_248.png" alt="successful completion of the operation" class="thumbnail">
    </a>
 
-9. Navigate to the project directory and you will find the generated zip file (.jar) in the target folder.
+9. Navigate to the project directory and you will find the generated zip file (.jar) in the target folder. (Please note that the ".jar" file with the larger file size is the main file.)
 
    <a href="https://uploadkon.ir/uploads/625930_249.png" target="_blank">
        <img src="https://uploadkon.ir/uploads/thumbs/625930_249.png" alt="zip file jar" class="thumbnail">
