@@ -31,6 +31,7 @@ Table of Contents
 
 Setup Guide
 -----------
+__To view the image in its original quality, click on the images.__
 
 ### Generate Google Search Console API Credentials
 1.  Go to the [Google Developers Console](https://console.cloud.google.com/cloud-resource-manager). And click on “CREATE PROJECT“ in the top menu.
