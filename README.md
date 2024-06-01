@@ -22,7 +22,7 @@ Table of Contents
     *   [Generate Google Search Console API Credentials](#generate-google-search-console-api-credentials)
     *   [Compile the Project as a Single Jar File](#compile-the-project-as-a-single-jar-file)
     *   [Create a Lambda Project on Amazon](#create-a-lambda-project-on-amazon)
-    *   [Upload the Jar File to Lambda](#upload-the-jar-file-to-lambda)
+    *   [The possibility of scheduling daily for automatic execution](#the-possibility-of-scheduling-daily-for-automatic-execution)
     *   [Test and Increase Timeout](#test-and-increase-timeout)
 3.  [Code Explanation](#code-explanation)
 4.  [Crucial Variables to Replace](#crucial-variables-to-replace)
@@ -297,25 +297,28 @@ In general, the compilation can be done with the command "mvn clean install"
           <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2415.png" alt="Add Trigger" class="thumbnail">
       </a>
 
-16. We want this project to run every day so that it can retrieve our Google Console data from a few days ago each day.
+
+### The possibility of scheduling daily for automatic execution
+
+1. We want this project to run every day so that it can retrieve our Google Console data from a few days ago each day.
 
       <a href="https://uploadkon.ir/uploads/6f9a01_2416.png" target="_blank">
           <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2416.png" alt="EventBridge (CloudWatch Events)" class="thumbnail">
       </a>
 
-17. Select the "EventBridge (CloudWatch Events)" option.
+2. Select the "EventBridge (CloudWatch Events)" option.
 
       <a href="https://uploadkon.ir/uploads/6f9a01_2417.png" target="_blank">
           <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2417.png" alt="Existing rules" class="thumbnail">
       </a>
 
-18. In the "Existing rules" section, select the "loop_daily_run" option. Click the "Add" button to save the settings.
+3. In the "Existing rules" section, select the "loop_daily_run" option. Click the "Add" button to save the settings.
 
       <a href="https://uploadkon.ir/uploads/6f9a01_2417.png" target="_blank">
           <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2418.png" alt="Existing rules" class="thumbnail">
       </a>
 
-19. Finally, your trigger has been created and is displayed in this section.
+4. Finally, your trigger has been created and is displayed in this section.
 
       <a href="https://uploadkon.ir/uploads/6f9a01_2419.png" target="_blank">
           <img src="https://uploadkon.ir/uploads/thumbs/6f9a01_2419.png" alt="your trigger has been created" class="thumbnail">
